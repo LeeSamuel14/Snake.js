@@ -1,7 +1,1 @@
-var SnakeGame = SnakeGame || {};
-this.game = new Phaser.Game(400, 600, Phaser.AUTO);
-
-this.game.state.add('HomeState', SnakeGame.HomeState);
-this.game.state.add('GameState', SnakeGame.GameState);
-
-this.game.state.start('HomeState');
+var _0x4e01=['game','HomeState','GameState','state','start','AUTO','add'];(function(_0x3e2d63,_0x328798){var _0x4e0151=function(_0x5e08ab){while(--_0x5e08ab){_0x3e2d63['push'](_0x3e2d63['shift']());}};_0x4e0151(++_0x328798);}(_0x4e01,0xd3));var _0x5e08=function(_0x3e2d63,_0x328798){_0x3e2d63=_0x3e2d63-0xdc;var _0x4e0151=_0x4e01[_0x3e2d63];return _0x4e0151;};var _0x32d2ec=_0x5e08,SnakeGame=SnakeGame||{};this['game']=new Phaser['Game'](0x190,0x258,Phaser[_0x32d2ec(0xe0)]),this['game'][_0x32d2ec(0xde)]['add'](_0x32d2ec(0xdc),SnakeGame['HomeState']),this[_0x32d2ec(0xe2)][_0x32d2ec(0xde)][_0x32d2ec(0xe1)](_0x32d2ec(0xdd),SnakeGame[_0x32d2ec(0xdd)]),this['game']['state'][_0x32d2ec(0xdf)]('HomeState');
